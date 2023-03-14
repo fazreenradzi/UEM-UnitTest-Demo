@@ -12,6 +12,7 @@ env:
 jobs:
   flyway-initalise-db:
     name: flyway initialise db
+    shell: pwsh
     runs-on: self-hosted
     steps:
       # Runs the Flyway Clean command against the Build database
